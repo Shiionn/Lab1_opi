@@ -8,7 +8,7 @@ int main()
 {
 	SetConsoleCP(1251);			//кодировка для ввода и вывода
 	SetConsoleOutputCP(1251);
-	setlocale(LC_ALL, "Russian");//рус.яз для консоли 
+	setlocale(LC_ALL, "Russian");
 	std::string word;
 	std::ifstream in("hello.txt");
 	in >> word;
